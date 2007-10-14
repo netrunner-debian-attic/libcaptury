@@ -1,0 +1,41 @@
+Source: libcaptury
+Priority: extra
+Maintainer: Fathi Boudra <fboudra@free.fr>
+Build-Depends: cdbs, debhelper (>= 5), quilt, autotools-dev, libcapseo-dev,
+ libgl1-mesa-dev, libogg-dev, libxfixes-dev, pkg-config
+Standards-Version: 3.7.2
+Section: libs
+
+Package: libcaptury-dev
+Section: libdevel
+Architecture: any
+Depends: libcaptury0 (= ${binary:Version}), libcapseo-dev
+Description: X11/GLX video capturing framework (development)
+ libcaptury is a movie capturing framework with its primary goal
+ to capture the screen of OpenGL games (running on Linux systems).
+ .
+ The goal of this framework is to provide an easy to understand and
+ an easy to use C API that can be quickly integrated into already
+ existing applications that need capturing capabilities.
+ .
+ This package contains the static libraries and headers for developing
+ applications that use the libcaptury library API.
+ .
+  Homepage: http://rm-rf.in/captury
+
+Package: libcaptury0
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: X11/GLX video capturing framework (runtime)
+ libcaptury is a movie capturing framework with its primary goal
+ to capture the screen of OpenGL games (running on Linux systems).
+ .
+ The goal of this framework is to provide an easy to understand and
+ an easy to use C API that can be quickly integrated into already
+ existing applications that need capturing capabilities.
+ .
+ This package contains the files necessary for running applications that
+ use the libcaptury library.
+ .
+  Homepage: http://rm-rf.in/captury

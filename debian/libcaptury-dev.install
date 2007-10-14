@@ -1,0 +1,4 @@
+usr/include/captury/captury.h
+usr/lib/libcaptury.a
+usr/lib/libcaptury.so
+usr/lib/pkgconfig/libcaptury.pc
