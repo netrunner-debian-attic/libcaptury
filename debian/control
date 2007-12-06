@@ -1,6 +1,6 @@
 Source: libcaptury
 Priority: extra
-Maintainer: Fathi Boudra <fboudra@free.fr>
+Maintainer: Fathi Boudra <fabo@debian.org>
 Build-Depends: cdbs, debhelper (>= 5), quilt, autotools-dev, libcapseo-dev,
  libgl1-mesa-dev, libogg-dev, libxfixes-dev, pkg-config
 Standards-Version: 3.7.2
