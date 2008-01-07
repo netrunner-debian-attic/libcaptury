@@ -5,6 +5,7 @@ Build-Depends: cdbs, debhelper (>= 5), quilt, autotools-dev, libcapseo-dev,
  libgl1-mesa-dev, libogg-dev, libxfixes-dev, pkg-config
 Standards-Version: 3.7.2
 Section: libs
+Homepage: http://rm-rf.in/captury
 
 Package: libcaptury-dev
 Section: libdevel
@@ -20,8 +21,6 @@ Description: X11/GLX video capturing framework (development)
  .
  This package contains the static libraries and headers for developing
  applications that use the libcaptury library API.
- .
-  Homepage: http://rm-rf.in/captury
 
 Package: libcaptury0
 Section: libs
@@ -37,5 +36,3 @@ Description: X11/GLX video capturing framework (runtime)
  .
  This package contains the files necessary for running applications that
  use the libcaptury library.
- .
-  Homepage: http://rm-rf.in/captury
